@@ -1,0 +1,139 @@
+%\documentclass[a4paper,fleqn,longmktitle]{cas-dc}
+\documentclass[a4paper,fleqn]{cas-dc}
+%\usepackage[authoryear,longnamesfirst]{natbib}
+%\usepackage[authoryear]{natbib}
+\usepackage[numbers,sort]{natbib}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{pifont}
+\usepackage{gensymb}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{algorithmic}
+\usepackage{float}
+\usepackage{lipsum}
+\usepackage{textcomp}
+\usepackage{wrapfig}
+\usepackage{comment}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{tabularx}
+\usepackage{comment}
+\usepackage{placeins}
+\setcitestyle{authoryear,open={(},close={)}}
+\usepackage[T1]{fontenc}
+
+\hypersetup{%
+  colorlinks=false,% hyperlinks will be black
+  linkbordercolor=[rgb]{0,1,0},% hyperlink borders will be red
+  pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+}
+
+\begin{document}
+\shorttitle{Example Title}
+\shortauthors{Authors et~al.}
+\title [mode = title]{Elsevier Journal Template - Tex - Double Column}  
+\author[1]{Author1} [orcid=0000-0000-0000-0000]
+%\ead{example@example.com}
+\author[1]{Author2} [orcid=0000-0000-0000-0000]
+\cormark[1]
+%\ead{example@example.com}
+\author[1]{Author3} 
+%\ead{example@example.com}
+
+\address[1]{Example University}
+\cortext[cor1]{Corresponding author}
+\begin{abstract}
+Pellentesque sit amet laoreet massa, tempus accumsan lacus. Nam malesuada mattis metus in egestas. Quisque vel ex vel ex volutpat rutrum a sed turpis. Pellentesque a metus ut justo porttitor efficitur. Suspendisse aliquam enim ac consequat aliquam. Suspendisse fermentum vitae lacus eget facilisis. Ut a nisi imperdiet, pretium lorem ac, sagittis felis.Nullam posuere rutrum dapibus. Sed ullamcorper ipsum nec hendrerit egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean finibus, erat in varius mollis, purus mi blandit nunc, vitae faucibus ex quam non nibh. Sed iaculis nisi fermentum, tempor nisi nec, volutpat neque. Praesent dui elit, tincidunt vel maximus vel, ornare vel sem. Pellentesque dignissim orci arcu. Duis faucibus viverra gravida. Suspendisse mi dolor, tristique nec congue sed, semper at nunc. Duis lacinia diam porttitor commodo tincidunt. In quis blandit risus. Vivamus finibus enim in neque vehicula luctus. Integer nulla risus, convallis quis risus vulputate, ullamcorper sollicitudin erat. Nam sodales massa vel sapien sollicitudin pellentesque. Ut nec posuere sapien. Morbi lobortis non ipsum imperdiet luctus. Curabitur aliquam elementum ligula eget laoreet. Donec eget orci vitae lacus feugiat fringilla ac vel mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eget placerat ante. Integer id finibus nisi. Nulla dictum turpis aliquet, vulputate erat vulputate, imperdiet enim. Vestibulum ullamcorper feugiat dolor, sit amet luctus felis.
+\end{abstract}
+
+\begin{keywords}
+KW \sep KW \sep KW \sep KW \sep KW \sep KW \sep KW \sep KW
+\end{keywords}
+\maketitle
+
+\section{Introduction}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rutrum, est ac rutrum auctor, odio massa blandit ante, ut ornare nibh est a nisl. Donec eget accumsan leo, nec ultrices leo. Cras sit amet quam odio. Cras turpis dolor, tempor vel ex sit amet, mollis congue justo. Suspendisse ut ligula ac magna hendrerit sodales vel in arcu. Nam euismod vitae est a tincidunt. Phasellus lacinia urna nunc, non interdum dolor tempus et. Nunc mi nisi, efficitur sed vulputate eget, rhoncus congue lacus. Integer dictum urna nec sem posuere rutrum.
+
+Sed mollis neque enim, et malesuada urna congue eget. In iaculis lobortis eros suscipit lacinia. Nunc vitae ante ullamcorper dolor interdum rutrum ut bibendum nisi. Nullam dignissim luctus ex vitae vulputate. Vestibulum ultricies odio sit amet odio placerat pharetra ac vel lorem. Curabitur ipsum odio, fringilla eget porttitor ultrices, euismod non erat. Maecenas vel augue dolor. Nunc erat metus, faucibus eu ipsum ut, rutrum tristique ante. Aliquam consectetur lacinia turpis vitae ornare. Vivamus velit enim, lacinia sit amet ullamcorper at, posuere sit amet nisl. Etiam eget dolor ut est blandit facilisis. Suspendisse non malesuada enim. Proin vitae placerat turpis. Nam diam lectus, tempor sodales leo at, auctor interdum nisi.
+
+Nullam vel tellus urna. Aenean fermentum arcu et pulvinar imperdiet. Ut a neque mauris. Suspendisse dignissim, turpis porta luctus euismod, nibh sapien congue justo, ac tempus nulla metus nec libero. Vestibulum nibh est, varius in odio eget, iaculis commodo lectus. Phasellus dolor mauris, condimentum sit amet nisl sed, tempus tincidunt tellus. Vivamus tortor diam, auctor at hendrerit nec, eleifend id lectus. Morbi id lorem a magna posuere venenatis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi nec condimentum nulla. Etiam sed consectetur elit. Phasellus a risus id arcu posuere convallis. Vivamus vel accumsan tellus. Cras rhoncus tincidunt nisi, sodales gravida diam rutrum a. Mauris fermentum mauris nec luctus lacinia. Praesent accumsan dapibus ipsum eu euismod\citep{candiago2015VegIndices}.
+
+\begin{itemize}
+    \item Item 1
+    \item Item 2
+    \item Item 3
+\end{itemize}
+
+Aenean pulvinar blandit eros, at vehicula arcu pulvinar eget. Fusce convallis diam sapien, eget consectetur orci ultrices eu. Aliquam erat volutpat. Sed sed purus vel ante feugiat blandit et nec ex. Morbi quam nibh, tincidunt ac libero id, finibus mattis risus. Quisque bibendum rutrum odio eu aliquam. Aliquam non est est. Nulla euismod risus elit, at consectetur leo vehicula ut. Aenean sodales nibh eget tortor accumsan venenatis. Pellentesque eget quam convallis sem feugiat tincidunt at vitae sapien. Praesent molestie lectus ac luctus tristique. Nulla facilisi. Aliquam in ante non augue feugiat egestas nec id lacus. Maecenas nec ligula scelerisque, feugiat justo quis, tincidunt lorem.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=3in]{image.png}
+    \caption{Caption}
+    \label{fig:enter-label}
+\end{figure}
+
+Duis iaculis condimentum lacinia. Aliquam eget suscipit erat, tristique volutpat mauris. Cras condimentum rhoncus commodo. Pellentesque viverra scelerisque lacus ac venenatis. Pellentesque neque arcu, mattis at lectus ac, dapibus suscipit neque. Vivamus vitae velit ornare, imperdiet lacus ut, suscipit augue. Vivamus ut semper turpis. Vivamus vitae tempor orci. Integer eu aliquet velit, et euismod nisl. Morbi auctor nibh quam, at suscipit urna pellentesque quis\citep{SAIDMOHAMED2021}.
+
+Phasellus at arcu lacinia, sodales libero non, tempor magna. Duis fringilla scelerisque sem vel ultrices. Vivamus pellentesque nisl sit amet bibendum efficitur. Ut vel mi vitae eros semper tempor. In augue diam, maximus vitae enim in, vehicula interdum enim. Vivamus tincidunt at quam in tristique. Integer sed dui lorem. Quisque id sem feugiat, placerat velit sit amet, fermentum nibh. Nullam et consectetur urna, vitae pretium tellus. Etiam at tellus faucibus, imperdiet orci ac, tempor sem. Cras ante odio, tincidunt in erat at, commodo aliquet orci. Aenean sagittis sit amet sapien a tempus. Sed ac vulputate metus, quis mattis sapien. Cras mattis felis et tellus aliquet convallis. Vestibulum dictum nec mi eget blandit\citep{terentev2022earlydetection}.
+
+Sed massa arcu, varius id purus et, dictum consectetur neque. Quisque interdum molestie dolor, et iaculis dui vehicula et. Ut tincidunt viverra commodo. Nulla ac maximus enim. Phasellus vitae quam eros. Nunc sem mi, gravida a lacus viverra, finibus molestie arcu. Vestibulum iaculis luctus quam, et hendrerit purus fringilla a.
+
+Pellentesque sit amet laoreet massa, tempus accumsan lacus. Nam malesuada mattis metus in egestas. Quisque vel ex vel ex volutpat rutrum a sed turpis. Pellentesque a metus ut justo porttitor efficitur. Suspendisse aliquam enim ac consequat aliquam. Suspendisse fermentum vitae lacus eget facilisis. Ut a nisi imperdiet, pretium lorem ac, sagittis felis.
+
+\section{Methodology}
+
+Nullam posuere rutrum dapibus. Sed ullamcorper ipsum nec hendrerit egestas. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean finibus, erat in varius mollis, purus mi blandit nunc, vitae faucibus ex quam non nibh. Sed iaculis nisi fermentum, tempor nisi nec, volutpat neque. Praesent dui elit, tincidunt vel maximus vel, ornare vel sem. Pellentesque dignissim orci arcu. Duis faucibus viverra gravida. Suspendisse mi dolor, tristique nec congue sed, semper at nunc. Duis lacinia diam porttitor commodo tincidunt. In quis blandit risus.
+
+Vivamus finibus enim in neque vehicula luctus. Integer nulla risus, convallis quis risus vulputate, ullamcorper sollicitudin erat. Nam sodales massa vel sapien sollicitudin pellentesque. Ut nec posuere sapien. Morbi lobortis non ipsum imperdiet luctus. Curabitur aliquam elementum ligula eget laoreet. Donec eget orci vitae lacus feugiat fringilla ac vel mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis eget placerat ante. Integer id finibus nisi. Nulla dictum turpis aliquet, vulputate erat vulputate, imperdiet enim. Vestibulum ullamcorper feugiat dolor, sit amet luctus felis.
+
+\section{Results}
+
+Sed massa arcu, varius id purus et, dictum consectetur neque. Quisque interdum molestie dolor, et iaculis dui vehicula et. Ut tincidunt viverra commodo. Nulla ac maximus enim. Phasellus vitae quam eros. Nunc sem mi, gravida a lacus viverra, finibus molestie arcu. Vestibulum iaculis luctus quam, et hendrerit purus fringilla a.
+
+Pellentesque sit amet laoreet massa, tempus accumsan lacus. Nam malesuada mattis metus in egestas. Quisque vel ex vel ex volutpat rutrum a sed turpis. Pellentesque a metus ut justo porttitor efficitur. Suspendisse aliquam enim ac consequat aliquam. Suspendisse fermentum vitae lacus eget facilisis. Ut a nisi imperdiet, pretium lorem ac, sagittis felis.
+
+Sed massa arcu, varius id purus et, dictum consectetur neque. Quisque interdum molestie dolor, et iaculis dui vehicula et. Ut tincidunt viverra commodo. Nulla ac maximus enim. Phasellus vitae quam eros. Nunc sem mi, gravida a lacus viverra, finibus molestie arcu. Vestibulum iaculis luctus quam, et hendrerit purus fringilla a.
+
+Pellentesque sit amet laoreet massa, tempus accumsan lacus. Nam malesuada mattis metus in egestas. Quisque vel ex vel ex volutpat rutrum a sed turpis. Pellentesque a metus ut justo porttitor efficitur. Suspendisse aliquam enim ac consequat aliquam. Suspendisse fermentum vitae lacus eget facilisis. Ut a nisi imperdiet, pretium lorem ac, sagittis felis.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\pdfbookmark[section]{Declaration of competing interest / Conflict of interest}{} % Include bookmark in the pdf (write the same name from the section below)
+\section*{Declaration of competing interest / Conflict of interest}
+The authors declare no conflict of interest.
+
+%\appendix
+%\section{My Appendix}
+%Appendix sections are coded under \verb+\appendix+.
+%\verb+\printcredits+ command is used after appendix sections to list 
+%author credit taxonomy contribution roles tagged using \verb+\credit+ 
+%in frontmatter.
+
+%\printcredits
+
+
+%% Loading bibliography style file
+%\bibliographystyle{model1-num-names}
+\bibliographystyle{elsarticle-num-names}
+% Loading bibliography database
+\bibliography{finref.bib}   
+
+
+%\vskip3pt
+
+%\bio{}
+%Author biography without author photo.
+%\endbio
+
+%\bio{figs/pic1}
+%Author biography with author photo.
+%\endbio
+
+\end{document}
+
